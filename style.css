@@ -12,12 +12,30 @@ div{padding: 3px;
     border-style: round; 
 }
 p{display: inline-block;text-decoration-color:#dd3232;
-
 }
+
+nav ul li {;
+ align-items:center;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: grey;
+  transition: top 500ms ease-in-out;
+}
+.search {
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  background: #eee;
+  padding: 20px;
+  
+} 
 img{
-    ; border-radius:rounded;
-}
-nav ul li{
-text: #777;
 
+  align-items: center;
+  padding: left 50px;
 }
+
