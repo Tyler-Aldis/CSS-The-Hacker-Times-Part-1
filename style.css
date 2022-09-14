@@ -1,24 +1,25 @@
 url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-body{background-color: #eee;
+body{border-left: 5px;
+  border-right: 25px
+  background-color: #eee;
 font-family:source-sans-Pro;
 }
-li {
-    display: inline;padding-left: 6px; text-decoration-color: #777;
-  }
+
   H1{
 text-align: center;
   }
-div{padding: 3px;
+div{padding: 68px;
+  padding-top: 34px;
     border-style: round; 
 }
-nav ul li {;
+{
  align-items:center;
   position: sticky;
   top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 12px;
+  padding: 0px;
   background-color: grey;
   transition: top 500ms ease-in-out;
 }
@@ -30,6 +31,12 @@ nav ul li {;
   padding: 20px;
   
 } 
+
+{
+
+
+
+}
 img{
 
   align-items: center;
